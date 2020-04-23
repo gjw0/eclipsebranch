@@ -15,5 +15,24 @@ public class MyController {
 		return "success";
 	}
 	
+	@RequestMapping("/b")
+	@ResponseBody
+	public String b() {
+		System.out.println("bbbbbb");
+		return "bbbb";
+	}
+	
+	
+	@RequestMapping("/c")
+	@ResponseBody
+	public String c() {
+		
+		System.out.println("cccccc");
+		return "cccc";
+	}
+	
+	
+	
+	
 	
 }
