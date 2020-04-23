@@ -18,17 +18,40 @@ public class MyController {
 	@RequestMapping("/bbbbb")
 	@ResponseBody
 	public String bbbbb() {
-		
 		System.out.println("awerssbbbbbbfasfs");
 		return "sadfasdbbbbbb";
 	}
-	
+
 	@RequestMapping("/bsdsdsbbb")
 	@ResponseBody
 	public String bbbsdsfb() {
+	
+	System.out.println("awersdfbbbbbbbbfasfs");
+	return "sadfasdbbbbbb";
+	
+	}
+	@RequestMapping("/b")
+	@ResponseBody
+	public String b() {
+		System.out.println("bbbbbb");
+		return "bbbb";
+	}
+	
+	String a = "sdfas";
+	@RequestMapping("/d")
+	@ResponseBody
+	public String c() {
+		String a="sdfs";
+		System.out.println("csdsdf");
+		return "cerwc";
+	}
+	
+	@RequestMapping("/asewerwf")
+	@ResponseBody
+	public String te6sdd() {
 		
-		System.out.println("awersdfbbbbbbbbfasfs");
-		return "sadfasdbbbbbb";
+		System.out.println("adasrerss");
+		return "ssaerwersdfsa";	
 	}
 	
 	
