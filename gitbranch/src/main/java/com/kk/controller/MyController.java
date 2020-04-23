@@ -22,21 +22,22 @@ public class MyController {
 		return "bbbb";
 	}
 	
-	
-	@RequestMapping("/c")
+	String a = "sdfas";
+	@RequestMapping("/d")
 	@ResponseBody
 	public String c() {
-		
-		System.out.println("cccccc");
-		return "cccc";
+		String a="sdfs";
+		System.out.println("csdsdf");
+		return "cerwc";
 	}
 	
-	@RequestMapping("/tsdfsdf")
+	@RequestMapping("/asersdf")
 	@ResponseBody
-	public String tsd() {
+	public String te6sdd() {
 		
-		System.out.println("sdfasfs");
-		return "sadfasdfsa";
+		System.out.println("sdfwerasfs");
+		
+		return "ssdfsafsdfsa";
 	}
 	
 	
