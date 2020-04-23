@@ -31,11 +31,11 @@ public class MyController {
 		return "cerwc";
 	}
 	
-	@RequestMapping("/asersdf")
+	@RequestMapping("/ssssssdf")
 	@ResponseBody
 	public String te6sdd() {
 		
-		System.out.println("sdfwerasfs");
+		System.out.println("ssssasfs");
 		
 		return "ssdfsafsdfsa";
 	}
