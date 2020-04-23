@@ -15,5 +15,13 @@ public class MyController {
 		return "success";
 	}
 	
+	@RequestMapping("/tsdfsdf")
+	@ResponseBody
+	public String b() {
+		
+		System.out.println("sdfasfs");
+		return "sadfasdfsa";
+	}
+	
 	
 }
