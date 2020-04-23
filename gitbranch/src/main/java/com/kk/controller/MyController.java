@@ -15,12 +15,20 @@ public class MyController {
 		return "success";
 	}
 	
-	@RequestMapping("/tsdfsdf")
+	@RequestMapping("/bbbbb")
 	@ResponseBody
-	public String b() {
+	public String bbbbb() {
 		
-		System.out.println("sdfasfs");
-		return "sadfasdfsa";
+		System.out.println("awerssbbbbbbfasfs");
+		return "sadfasdbbbbbb";
+	}
+	
+	@RequestMapping("/bsdsdsbbb")
+	@ResponseBody
+	public String bbbsdsfb() {
+		
+		System.out.println("awersdfbbbbbbbbfasfs");
+		return "sadfasdbbbbbb";
 	}
 	
 	
