@@ -31,8 +31,13 @@ public class MyController {
 		return "cccc";
 	}
 	
-	
-	
+	@RequestMapping("/tsdfsdf")
+	@ResponseBody
+	public String tsd() {
+		
+		System.out.println("sdfasfs");
+		return "sadfasdfsa";
+	}
 	
 	
 }
