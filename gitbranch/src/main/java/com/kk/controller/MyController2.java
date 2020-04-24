@@ -14,10 +14,13 @@ public class MyController2 {
 	
 	Date date = new java.util.Date();
 	String SseEmitter = "sdfasdfs";
+	String ssString = "sdfasdf";
+	Integer asss = Integer.valueOf(4);
 	@RequestMapping("/a")
 	@ResponseBody
 	public String mm() {
 		Integer aa = Integer.valueOf(34);
+		System.out.println("sdfasdfas");
 		return "aaa";
 	}
 	Integer a = Integer.valueOf(3);

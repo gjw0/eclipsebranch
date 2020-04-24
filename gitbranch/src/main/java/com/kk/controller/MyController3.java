@@ -1,18 +1,17 @@
 package com.kk.controller;
 
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+import java.util.Date;
+
 public class MyController3 {
-	
-	private String name ;
-	private Integer num;
-	
-	public void say() {
-		System.out.println("dfasdfasdf");
-		Integer a = Integer.valueOf(4);
+
+	public static void main(String[] args) {
+		
+		System.out.println("sdfasf");
+		String a = "sdfasdf";
+		Integer SD = Integer.valueOf(4);
+		Date date = new Date();
 		
 	}
-	
-	
+
 }
